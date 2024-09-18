@@ -27,6 +27,12 @@ struct CsvRow<'a> {
     avg_rate: f64,
 }
 
+// Notes:
+// could use clap here to do tighter arg parsing and give some help, as is it's
+// csvrates infile outfile
+// csvrates infile > stdout
+// or csvrates < stdin > stdout
+// also could use the anyhow crate to clean up some of the error handling.
 fn main() -> std::io::Result<()> {
     let input = env::args().nth(1);
     let output = env::args().nth(2);
