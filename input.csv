@@ -1,0 +1,8 @@
+name,billing_code,negotiated_rate
+John Doe,A123,25.0
+John Doe,A123,20.0
+Jane Smith,B456,35.0
+Alice Johnson,C789,15.0
+Alice Johnson,C789,10.0
+Bob Lee,D111,30.0
+Bob Lee,D111,31.0
